@@ -1,0 +1,86 @@
+html {
+    background-image: url("images/light_grey_floral_motif.png");
+}
+.header {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font: 20px bold, sans-serif;
+}
+.header-logo {
+    color: lawngreen;
+}
+@keyframes hoverLink {
+    
+}
+.header-buttons a:link {
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+
+}
+.paragraph h1 {
+    display: inline;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.paragraph p {
+    display: inline;
+}
+.red-text {
+    color: red;
+}
+.main-body {
+    display: flex;
+    justify-content: space-around;
+}
+.left-side {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 70px 0;
+    font: 20px "Arial";
+}
+.left-side h1 {
+    font-size: 55px;
+}
+.right-side {
+    display: flex;
+    flex-direction: row;
+}
+.food-images p {
+    background-color: lawngreen;
+    padding: 20px;
+    margin: 0px;
+}
+.food-images p.adjective {
+    background-color: white;
+    padding: 20px;
+    margin: 0px;
+}
+.food-images {
+    height: 450px;
+    width: 300px;
+    margin: 100px 10px 0px 10px;
+}
+.image-1 {
+    background: url('images/appleQuinoa.jpeg');
+    background-size: cover;
+}
+.image-2 {
+    background: url('images/pastaSalad.jpeg');
+    background-size: cover;
+}
+.image-3 {
+    background: url('images/shrimp.jpeg');
+    background-size: cover;
+}
+.food-inner-content {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
